@@ -1,5 +1,6 @@
 package com.kadod.kadod.ws;
-import com.kadod.fingerprint.model.enums.TypePermissionEnum;
+
+import com.kadod.kadod.enums.TypePermissionEnum;
 import lombok.Data;
 
 @Data

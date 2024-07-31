@@ -29,7 +29,7 @@
 	<properties>
 		<spring.boot.version>1.5.6.RELEASE</spring.boot.version>
 		<dozer.version>5.5.1</dozer.version>
-		<lombok.version>1.16.20</lombok.version>
+<!--		<lombok.version>1.16.20</lombok.version>-->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<gson.version>2.7</gson.version>
 		<libphonenumber.version>8.9.7</libphonenumber.version>
@@ -65,6 +65,12 @@
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
 			<version>2.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.java-websocket</groupId>
+			<artifactId>Java-WebSocket</artifactId>
+			<version>1.5.5</version>
 		</dependency>
 
 		<dependency>
@@ -104,7 +110,7 @@
 		</repository>
 	</distributionManagement>
 	<build>
-		<finalName>owomi-commons</finalName>
+		<finalName>kadod-commons</finalName>
 		<plugins>
 			<!-- download source code in Eclipse, best practice -->
 			<plugin>

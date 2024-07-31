@@ -1,6 +1,6 @@
 package com.kadod.kadod.ws;
 
-import com.kadod.fingerprint.model.enums.PresenceEnum;
+import com.kadod.kadod.enums.PresenceEnum;
 import lombok.Data;
 
 @Data

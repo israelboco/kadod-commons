@@ -1,6 +1,5 @@
 package com.kadod.kadod.ws;
 
-import com.kadod.fingerprint.model.entities.Role;
 import lombok.Data;
 
 import java.util.Set;
@@ -14,6 +13,6 @@ public class UserWs {
     private String email;
     private String company;
     private Integer enrollId;
-    private Set<Role> roles;
+    private Set<RoleWs> roles;
 
 }
