@@ -6,7 +6,7 @@ import lombok.Data;
 public class RoleWs {
 
     private Long id;
-    private String label;
+    private String name;
     private String description;
 
 }
