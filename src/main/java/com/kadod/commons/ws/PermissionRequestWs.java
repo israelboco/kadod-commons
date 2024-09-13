@@ -10,5 +10,7 @@ public class PermissionRequestWs {
     private Integer employeeId;
     private Integer startDateTimestamp;
     private Integer endDateTimestamp;
+    private String objet;
+    private String path;
     private Boolean accepted;
 }
