@@ -11,5 +11,7 @@ public class PermissionWs {
     private EmployeeWs employeeWs;
     private long startDateTimestamp;
     private long endDateTimestamp;
+    private String objet;
+    private String path;
     private Boolean accepted;
 }
