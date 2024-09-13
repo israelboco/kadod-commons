@@ -1,7 +1,7 @@
 package com.kadod.commons.ws;
 import com.kadod.commons.enums.TypePermissionEnum;
 import lombok.Data;
-import org.springframework.web.multipart.MultipartFile;
+//import org.springframework.web.multipart.MultipartFile;
 
 @Data
 public class PermissionRequestWs {
@@ -12,6 +12,6 @@ public class PermissionRequestWs {
     private Integer startDateTimestamp;
     private Integer endDateTimestamp;
     private String objet;
-    private MultipartFile path;
+    private String path;
     private Boolean accepted;
 }
