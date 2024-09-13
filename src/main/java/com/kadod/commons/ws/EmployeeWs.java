@@ -16,6 +16,7 @@ public class EmployeeWs {
     private Integer idCompany;
     private String company;
     private byte[] imageProfile;
+    private String profile;
     private Boolean isAdmin;
     private String deviceSerial;
 
