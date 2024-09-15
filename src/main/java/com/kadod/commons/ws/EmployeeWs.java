@@ -19,5 +19,6 @@ public class EmployeeWs {
     private String profile;
     private Boolean isAdmin;
     private String deviceSerial;
+    private EmployeeWs employeeAdmin;
 
 }
